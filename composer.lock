@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "638ff985aa4c59d7dd935f626a9825e6",
+    "hash": "796a34ff42fad869b4ed33362df7f83b",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -1711,13 +1711,60 @@
             "time": "2014-09-23 05:25:11"
         }
     ],
-    "packages-dev": [],
+    "packages-dev": [
+        {
+            "name": "heroku/heroku-buildpack-php",
+            "version": "v43",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/heroku/heroku-buildpack-php.git",
+                "reference": "cda1c2e7cfe00c78404bc20dc6b7ba139a5e093f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/cda1c2e7cfe00c78404bc20dc6b7ba139a5e093f",
+                "reference": "cda1c2e7cfe00c78404bc20dc6b7ba139a5e093f",
+                "shasum": ""
+            },
+            "bin": [
+                "bin/heroku-hhvm-apache2",
+                "bin/heroku-hhvm-nginx",
+                "bin/heroku-php-apache2",
+                "bin/heroku-php-nginx"
+            ],
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Zuelke",
+                    "email": "dz@heroku.com"
+                }
+            ],
+            "description": "Toolkit for starting a PHP application locally, with or without foreman, using the same config for PHP/HHVM and Apache2/Nginx as on Heroku",
+            "homepage": "http://github.com/heroku/heroku-buildpack-php",
+            "keywords": [
+                "apache",
+                "apache2",
+                "foreman",
+                "heroku",
+                "hhvm",
+                "nginx",
+                "php"
+            ],
+            "time": "2014-09-11 03:04:06"
+        }
+    ],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
         "snowfire/mail": 20
     },
     "prefer-stable": false,
-    "platform": [],
+    "platform": {
+        "php": "~5.5.15"
+    },
     "platform-dev": []
 }
