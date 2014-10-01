@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <buildpath>
-	<buildpathentry kind="src" path="vendor/laravel/framework/src/Illuminate/Queue"/>
 	<buildpathentry kind="src" path="vendor/predis/predis/lib"/>
+	<buildpathentry kind="src" path="vendor/laravel/framework/src/Illuminate/Queue"/>
 	<buildpathentry kind="src" path="vendor/symfony/security-core"/>
 	<buildpathentry kind="src" path="vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Resources/stubs"/>
 	<buildpathentry kind="src" path="vendor/symfony/process"/>
 	<buildpathentry kind="src" path="vendor/symfony/translation"/>
 	<buildpathentry kind="src" path="vendor/patchwork/utf8/class"/>
 	<buildpathentry excluding="deprecated/" kind="src" path="vendor/filp/whoops/src"/>
+	<buildpathentry kind="src" path="vendor/openbuildings/postmark/src"/>
 	<buildpathentry kind="src" path="vendor/nesbot/carbon/src"/>
 	<buildpathentry kind="src" path="app/controllers"/>
 	<buildpathentry kind="src" path="vendor/symfony/dom-crawler"/>
@@ -27,6 +28,7 @@
 	<buildpathentry kind="src" path="vendor/psr/log"/>
 	<buildpathentry kind="src" path="vendor/d11wtq/boris/lib"/>
 	<buildpathentry kind="src" path="vendor/laravel/framework/src/Illuminate/Support"/>
+	<buildpathentry kind="src" path="vendor/snowfire/mail/src"/>
 	<buildpathentry excluding="Crypt/" kind="src" path="vendor/phpseclib/phpseclib/phpseclib"/>
 	<buildpathentry kind="src" path="vendor/symfony/browser-kit"/>
 	<buildpathentry kind="src" path="vendor/swiftmailer/swiftmailer/lib"/>
