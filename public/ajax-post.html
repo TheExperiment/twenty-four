@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ajax post</title>
+<script src="//code.jquery.com/jquery-2.1.1.js"></script>
+</head>
+<body>
+
+<script type="text/javascript">
+function doPost() {
+	$.post( "/api/v1/send", { messageSubject: "Thanks for checking us out", messageCopy: "This is the body of the email." })
+	.done(function( data ) {
+	  console.log( data );
+	});
+}
+</script>
+
+<button onclick="doPost()">Click to Post</button>
+
+</body>
+</html>
