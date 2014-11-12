@@ -24,11 +24,14 @@ $app = new Illuminate\Foundation\Application;
 |
 */
 
-$env = $app->detectEnvironment(array(
-
-	'local' => array('homestead'),
-
-));
+$env = $app->detectEnvironment(function()
+{
+	if ( getenv('ENV_ID') ) {
+		return getenv('ENV_ID');
+	} else {
+		return 'local';
+	}
+});
 
 /*
 |--------------------------------------------------------------------------
